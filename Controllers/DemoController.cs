@@ -25,6 +25,7 @@ namespace DemoMVC.Controllers
 
         public IActionResult Getname(string name, int numTimes = 4) 
         {
+            //abc
             ViewData["Message"] = "Hello " + name;
             ViewData["NumTimes"] = numTimes;
             return View();
